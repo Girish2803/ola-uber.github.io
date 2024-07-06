@@ -38,6 +38,20 @@ An advanced version of Dijkstra's for faster route finding using heuristics.
 [Click here to view the implementation](A*search.cpp)
 
 #### Difference between Djikstra's and A* Search
-|Characteristics|Djikstrals|A* Search|
-|---|---|---|
-|Algorithm type|Greedy|Uses heuristics|
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+        <th>Characteristics</th>
+        <th>Djikstrals</th>
+        <th>A* search</th>
+    </tr>
+    </table>
+</body>
+</html>
