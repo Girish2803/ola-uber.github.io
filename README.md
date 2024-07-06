@@ -8,7 +8,7 @@
 
 ## List of Contents
 1. [Introduction](#introduction)
-2. [Functional and Non-functional Requirements](#functional-and-non-functional-requirements)
+2. [Objectives](#Objectives)
 3. [Applications](#Applications)
 
 ## Introduction
