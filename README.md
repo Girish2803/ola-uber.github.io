@@ -38,7 +38,6 @@ An advanced version of Dijkstra's for faster route finding using heuristics.
 [Click here to view the implementation](A*search.cpp)
 
 #### Difference between Djikstra's and A* Search
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -52,6 +51,51 @@ An advanced version of Dijkstra's for faster route finding using heuristics.
         <th>Djikstrals</th>
         <th>A* search</th>
     </tr>
+        <tr>
+            <td>Algorithm type</td>
+            <td>Greedy</td>
+            <td>Informed Search(uses heuristics)</td>
+        </tr>
+        <tr>
+            <td>Initialization</td>
+            <td>Tentative distance: 0 for source, infinity for others</td>
+            <td>Tentative distance and heuristic function</td>
+        </tr>
+        <tr>
+            <td>Algorithm type</td>
+            <td>Greedy</td>
+            <td>Informed Search(uses heuristics)</td>
+        </tr>
+        <tr>
+            <td>Heuristic Use</td>
+            <td>None</td>
+            <td>Uses heuristic to estimate remaining cost to goal</td>
+        </tr>
+        <tr>
+            <td>Algorithm type</td>
+            <td>Greedy</td>
+            <td>Informed Search(uses heuristics)</td>
+        </tr>
+        <tr>
+            <td>Efficiency</td>
+            <td>Less efficient for large graphs</td>
+            <td>More efficient with a well-chosen heuristic</td>
+        </tr>
+        <tr>
+            <td>Complexity</td>
+            <td>O(V^2) or O((V + E) log V) with priority queue</td>
+            <td>Depends on heuristic; typically better than Dijkstra’s</td>
+        </tr>
+        <tr>
+            <td>Strengths</td>
+            <td>Guarantees shortest path for all nodes</td>
+            <td>Efficient pathfinding with good heuristic</td>
+        </tr>
+         <tr>
+            <td>Weaknesses</td>
+            <td>Can be slow for large graphs</td>
+            <td>Performance depends on heuristic quality</td>
+        </tr>
     </table>
 </body>
 </html>
