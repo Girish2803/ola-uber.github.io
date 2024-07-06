@@ -36,3 +36,15 @@ This can be used to find the shortest path between two points, which is essentia
 ### A Search Algorithm*
 An advanced version of Dijkstra's for faster route finding using heuristics.
 [Click here to view the implementation](A*search.cpp)
+
+#### Difference between Djikstra's and A* Search
+| Characteristics        | Dijkstra’s Algorithm                  | A* Search Algorithm                     |
+|------------------------|---------------------------------------|-----------------------------------------|
+| Algorithm Type         | Greedy                                | Informed search (uses heuristics)       |
+| Initialization         | Tentative distance: 0 for source, infinity for others | Tentative distance and heuristic function |
+| Heuristic Use          | None                                  | Uses heuristic to estimate remaining cost to goal |
+| Efficiency             | Less efficient for large graphs       | More efficient with a well-chosen heuristic |
+| Complexity             | O(V^2) or O((V + E) log V) with priority queue | Depends on heuristic; typically better than Dijkstra’s |
+| Use Case               | Network routing protocols             | Navigation systems, games, AI pathfinding |
+| Strengths              | Guarantees shortest path for all nodes | Efficient pathfinding with good heuristic |
+| Weaknesses             | Can be slow for large graphs          | Performance depends on heuristic quality |
