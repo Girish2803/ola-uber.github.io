@@ -12,7 +12,7 @@
 3. [Applications](#Applications)
 
 ## Introduction
-Developing a portfolio project centered on a ride-sharing application like Ola or Uber showcases your skills in data structures and algorithms (DSA). These applications require efficient algorithms for tasks such as matching riders with drivers, optimizing routes, managing dynamic pricing, and tracking real-time locations. By implementing key DSA techniques, including graph algorithms, priority queues, and spatial indexing, you can demonstrate your ability to tackle complex, real-world problems with efficient and scalable solutions. This project highlights your technical prowess and problem-solving abilities, making it a strong addition to your portfolio.
+Developing a portfolio project centered on a ride-sharing application like Ola or Uber showcases our skills in data structures and algorithms (DSA). These applications require efficient algorithms for tasks such as matching riders with drivers, optimizing routes, managing dynamic pricing, and tracking real-time locations. By implementing key DSA techniques, including graph algorithms, priority queues, and spatial indexing, you can demonstrate your ability to tackle complex, real-world problems with efficient and scalable solutions. 
 
 ## Functional and Non-functional Requirements
 *Write your functional and non-functional requirements here.*
