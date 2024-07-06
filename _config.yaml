@@ -1,4 +1,7 @@
-remote_theme: pages-themes/leap-day
+# _config.yml
+
+remote_theme: pages-themes/cayman
+
 plugins:
   - jekyll-remote-theme
 
