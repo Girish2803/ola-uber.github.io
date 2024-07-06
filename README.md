@@ -45,7 +45,7 @@ An advanced version of Dijkstra's for faster route finding using heuristics.
     <title>Document</title>
 </head>
 <body>
-    <table>
+    <table style="border:1px solid black">
         <tr>
         <th>Characteristics</th>
         <th>Djikstrals</th>
