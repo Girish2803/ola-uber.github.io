@@ -108,3 +108,7 @@ For finding shortest paths between all pairs of nodes, useful in pre-computing d
 ### Binary heap
 For efficiently managing priority queues, such as finding the nearest driver.
 [Click here to view implementation](BinaryHeap.cpp)
+
+### Knapsack Problem
+Knapsack Problem: For optimizing resource allocation, like deciding the best set of drivers to deploy based on constraints.
+[Click here to view implementation](Knapsack.cpp)
