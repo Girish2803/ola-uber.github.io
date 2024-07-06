@@ -35,3 +35,4 @@ This can be used to find the shortest path between two points, which is essentia
 
 ### A Search Algorithm*
 An advanced version of Dijkstra's for faster route finding using heuristics.
+[Click here to view the implementation](A*search.cpp)
