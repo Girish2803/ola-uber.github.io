@@ -112,3 +112,7 @@ For efficiently managing priority queues, such as finding the nearest driver.
 ### Knapsack Problem
 Knapsack Problem: For optimizing resource allocation, like deciding the best set of drivers to deploy based on constraints.
 [Click here to view implementation](Knapsack.cpp)
+
+### Segment Trees
+For efficiently handling range queries and updates, useful in managing dynamic ride pricing or availability queries.
+[Click here to view implementation](SegmentTrees.cpp)
