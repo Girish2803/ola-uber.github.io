@@ -29,7 +29,7 @@ Developing a portfolio project centered on a ride-sharing application like Ola o
 This can be used to manage dependencies in the system, such as tasks that need to be completed in a specific order. For example, it could help in scheduling drivers based on a sequence of tasks that need to be completed before others.
 [Click here to view the implementation](toposort.cpp)
 
-![PLACEHOLDER_image5](https://github.com/Girish2803/ola-uber.github.io/assets/131705564/ed8cde0d-b806-4958-87f7-0e3eab3a3d05)
+[PLACEHOLDER_image5](https://github.com/Girish2803/ola-uber.github.io/assets/131705564/ed8cde0d-b806-4958-87f7-0e3eab3a3d05)
 
 ### Dijkstra's Algorithm
 This can be used to find the shortest path between two points, which is essential for route optimization.
