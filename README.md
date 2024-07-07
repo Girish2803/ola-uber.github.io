@@ -28,16 +28,22 @@ Developing a portfolio project centered on a ride-sharing application like Ola o
 ### Topological Sorting
 This can be used to manage dependencies in the system, such as tasks that need to be completed in a specific order. For example, it could help in scheduling drivers based on a sequence of tasks that need to be completed before others.
 [Click here to view the implementation](toposort.cpp)
-
+Time Complexity: O(N+E) 
+N = Number of node , E = Number of Edges
+Space Complexity: O(N) + O(N)
+Visited Array and Stack data structure. Both will be using O(N).
+Auxiliary Space Complexity:  O(N)
 ![PLACEHOLDER_image5](https://github.com/Girish2803/ola-uber.github.io/assets/131705564/ed8cde0d-b806-4958-87f7-0e3eab3a3d05)
 ### Dijkstra's Algorithm
 This can be used to find the shortest path between two points, which is essential for route optimization.
 [Click here to view the implementation](djikstrals.cpp)
-
+Time Complexity: O( E log(V) ), Where E = Number of edges and V = Number of Nodes.
+Space Complexity: O( |E| + |V| ), Where E = Number of edges and V = Number of Nodes.
 ### A Search Algorithm*
 An advanced version of Dijkstra's for faster route finding using heuristics.
 [Click here to view the implementation](A*search.cpp)
-
+Time Complexity: Considering a graph, it may take us to travel all the edge to reach the destination cell from the source cell [For example, consider a graph where source and destination nodes are connected by a series of edges, like – 0(source) –>1 –> 2 –> 3 (target). So the worse case time complexity is O(E), where E is the number of edges in the graph
+Auxiliary Space: In the worse case we can have all the edges inside the open list, so required auxiliary space in worst case is O(V), where V is the total number of vertices.
 #### Difference between Djikstra's and A* Search
 <html lang="en">
 <head>
@@ -105,18 +111,69 @@ An advanced version of Dijkstra's for faster route finding using heuristics.
 ### Floyd Worshall
 For finding shortest paths between all pairs of nodes, useful in pre-computing distances.
 [Click here to view implementation](FloydWorshall.cpp)
+Time Complexity: O(V^3), as we have three nested loops each running for V times, where V = no. of vertices.
+Space Complexity: O(V^2), where V = no. of vertices. This space complexity is due to storing the adjacency matrix of the given graph.
 
 ### Binary heap
 For efficiently managing priority queues, such as finding the nearest driver.
 [Click here to view implementation](BinaryHeap.cpp)
+Time Complexities:
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table style="border:1px solid black">
+        <tr>
+        <th>Function</th>
+        <th>Time Complexity</th>
+    </tr>
+        <tr>
+            <td>Insert():</td>
+            <td>O(logN)</td>
+        </tr>
+        <tr>
+            <td>Heapify():</td>
+            <td>O(logN)</td>
+        </tr>
+        <tr>
+            <td>getMin():</td>
+            <td>O(1)</td>
+        </tr>
+        <tr>
+            <td>ExtractMin():</td>
+            <td>O(logN)</td>
+        </tr>
+        <tr>
+            <td>Decreasekey():</td>
+            <td>O(logN)</td>
+        </tr>
+        <tr>
+            <td>Delete():</td>
+            <td>O(logN)</td>
+        </tr>
+    </table>
+</body>
+</html>
 
 ### Knapsack Problem
 Knapsack Problem: For optimizing resource allocation, like deciding the best set of drivers to deploy based on constraints.
 [Click here to view implementation](Knapsack.cpp)
+Time Complexity: O(N*W)
+Reason: There are two nested loops
+Space Complexity: O(N*W)
+Reason: We are using an external array of size ‘N*W’. Stack Space is eliminated.
 
 ### Segment Trees
 For efficiently handling range queries and updates, useful in managing dynamic ride pricing or availability queries.
 [Click here to view implementation](SegmentTrees.cpp)
+Time Complexities:
+a) Tree Construction: O( n )
+b) Query in Range: O( Log n )
+c) Updating an element: O( Log n ).
+Auxiliary Space: O(2*N)
 
 ### Conclusion
 This portfolio demonstrates a robust understanding of data structures and algorithms through practical applications in a ride-sharing context. By tackling real-world problems such as rider-driver matching, route optimization, dynamic pricing, and vehicle tracking, the project highlights the ability to design and implement efficient, scalable, and secure solutions. Each algorithm and data structure has been carefully selected and applied to address specific challenges inherent in ride-sharing applications, reflecting a strong grasp of both theoretical concepts and their practical implications. 
