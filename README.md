@@ -33,7 +33,7 @@ N = Number of node , E = Number of Edges
 Space Complexity: O(N) + O(N)
 Visited Array and Stack data structure. Both will be using O(N).
 Auxiliary Space Complexity:  O(N)
-![PLACEHOLDER_image5](https://github.com/Girish2803/ola-uber.github.io/assets/131705564/ed8cde0d-b806-4958-87f7-0e3eab3a3d05)
+![ll](PLACEHOLDER_image4.jpg)
 ### Dijkstra's Algorithm
 This can be used to find the shortest path between two points, which is essential for route optimization.
 [Click here to view the implementation](djikstrals.cpp)
