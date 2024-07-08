@@ -38,9 +38,11 @@ Auxiliary Space Complexity:  O(N)
 ![l1](PLACEHOLDER_image5.jpg)
 ### Dijkstra's Algorithm
 This can be used to find the shortest path between two points, which is essential for route optimization.
-[Click here to view the implementation](djikstrals.cpp)
+[Click here to view the implementation](djikstrals.cpp)  
+
 Time Complexity: O( E log(V) ), Where E = Number of edges and V = Number of Nodes.
 Space Complexity: O( |E| + |V| ), Where E = Number of edges and V = Number of Nodes.
+![l2](Screenshot-2022-11-23-162707.png)
 ### A Search Algorithm*
 An advanced version of Dijkstra's for faster route finding using heuristics.
 [Click here to view the implementation](A*search.cpp)
