@@ -8,11 +8,12 @@
 **University:** KLE Technological University
 
 ## List of Contents
-1. [Introduction](Introduction)
-2. [Objectives](Objectives)
-3. [Business Applications](Business Application)
-4. [Codes](Codes)
-5. [Conclusion](Conclusion)
+1. [Introduction](#Introduction)
+2. [Objectives](#Objectives)
+3. [Business Applications](#Business Application)
+4. [Codes](#Codes)
+5. [Conclusion](#Conclusion)
+
 ## Introduction
 Developing a portfolio project centered on a ride-sharing application like Ola or Uber showcases our skills in data structures and algorithms (DSA). These applications require efficient algorithms for tasks such as matching riders with drivers, optimizing routes, managing dynamic pricing, and tracking real-time locations. By implementing key DSA techniques, including graph algorithms, priority queues, and spatial indexing, you can demonstrate your ability to tackle complex, real-world problems with efficient and scalable solutions. 
 
@@ -27,20 +28,20 @@ Developing a portfolio project centered on a ride-sharing application like Ola o
 8. Implement secure methods for data storage and communication to protect user and driver information.
 
 ## Business Applications
-1) Scheduling driver tasks such as vehicle maintenance, rest periods, and shifts in a specific order.
-2) Ensuring new features or updates are deployed in the correct sequence to avoid dependencies issues.
-3) Finding the shortest path for drivers to pick up passengers and reach destinations, minimizing travel time and fuel consumption.
-4) Providing real-time navigation guidance to drivers, helping them avoid traffic and reach destinations faster.
-5) Adjusting routes dynamically in response to traffic changes or roadblocks, ensuring the quickest route is always taken.
-6) Pre-computing shortest paths between all popular pick-up and drop-off points to quickly provide estimated times of arrival (ETAs) to users.
-7) Optimizing routes for drivers who have multiple drop-off points in a single trip, ensuring the shortest overall route.
-8) Efficiently managing the queue of available drivers and matching them with riders based on proximity and other factors.
-9) Managing priority tasks such as high-demand ride requests or emergency situations.
-10) Deciding the best set of drivers and vehicles to deploy in high-demand areas to maximize efficiency and profits.
-11) Efficiently handling dynamic pricing adjustments based on real-time supply and demand, time of day, and other factors.
-12) Managing and querying driver availability in different regions dynamically as new requests come in.
-13) Optimizing the allocation of drivers based on various constraints (e.g., driver availability, vehicle capacity) to maximize ride fulfillment.
-14) Providing more efficient route planning for drivers by considering both the shortest path and real-time traffic conditions.
+1. Scheduling driver tasks such as vehicle maintenance, rest periods, and shifts in a specific order. 
+2. Ensuring new features or updates are deployed in the correct sequence to avoid dependencies issues. 
+3. Finding the shortest path for drivers to pick up passengers and reach destinations, minimizing travel time and fuel consumption. 
+4. Providing real-time navigation guidance to drivers, helping them avoid traffic and reach destinations faster. 
+5. Adjusting routes dynamically in response to traffic changes or roadblocks, ensuring the quickest route is always taken. 
+6. Pre-computing shortest paths between all popular pick-up and drop-off points to quickly provide estimated times of arrival (ETAs) to users. 
+7. Optimizing routes for drivers who have multiple drop-off points in a single trip, ensuring the shortest overall route. 
+8. Efficiently managing the queue of available drivers and matching them with riders based on proximity and other factors. 
+9. Managing priority tasks such as high-demand ride requests or emergency situations. 
+10. Deciding the best set of drivers and vehicles to deploy in high-demand areas to maximize efficiency and profits. 
+11. Efficiently handling dynamic pricing adjustments based on real-time supply and demand, time of day, and other factors. 
+12. Managing and querying driver availability in different regions dynamically as new requests come in. 
+13. Optimizing the allocation of drivers based on various constraints (e.g., driver availability, vehicle capacity) to maximize ride fulfillment. 
+14. Providing more efficient route planning for drivers by considering both the shortest path and real-time traffic conditions. 
 
 ## Codes
 ### Topological Sorting
