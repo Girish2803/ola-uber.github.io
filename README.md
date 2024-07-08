@@ -181,9 +181,10 @@ For efficiently handling range queries and updates, useful in managing dynamic r
 
 Time Complexities:
 a) Tree Construction: O( n )
-b) Query in Range: O( Log n )
-c) Updating an element: O( Log n ). 
-Auxiliary Space: O(2*N)
+b) Query in Range: O( Log N)
+c) Updating an element: O(Log n). 
+Auxiliary Space: O(2*N) 
+
 ![l2](segmenttree.png)
 
 ### Conclusion
