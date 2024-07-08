@@ -2,18 +2,18 @@
 **Course Name:** Algorithmic Problem Solving  
 **Course Code:** 23ECSE309  
 **Student Name:** Girish Tammanagoudar
-
 **SRN:** 01fe21bcs256  
 **Course Instructor:** Prakash Hegade  
 **University:** KLE Technological University
 
 ## List of Contents
-1. [Introduction](# Introduction)
-2. [Objectives](# Objectives)
-3. [Business Applications](# Business Application)
-4. [Codes](# Codes)
-5. [Conclusion](# Conclusion)
-6. [References](# References )
+1. Introduction
+2. Objectives
+3. Business Applications
+4. Codes
+5. Conclusion
+6. References
+
 ## Introduction
 Developing a portfolio project centered on a ride-sharing application like Ola or Uber showcases our skills in data structures and algorithms (DSA). These applications require efficient algorithms for tasks such as matching riders with drivers, optimizing routes, managing dynamic pricing, and tracking real-time locations. By implementing key DSA techniques, including graph algorithms, priority queues, and spatial indexing, you can demonstrate your ability to tackle complex, real-world problems with efficient and scalable solutions. 
 
@@ -54,14 +54,16 @@ Space Complexity: O(N) + O(N)
 Visited Array and Stack data structure. Both will be using O(N).
 Auxiliary Space Complexity:  O(N)
 ![ll](PLACEHOLDER_image4.jpg)
-![l1](PLACEHOLDER_image5.jpg)
+![l1](PLACEHOLDER_image5.jpg) 
+
 ### Dijkstra's Algorithm
 Dijkstra's algorithm is essential for finding the shortest path between two points, making it a key component for route optimization in ride-sharing services. In a platform like Ola or Uber, this algorithm helps drivers navigate the most efficient routes to pick up and drop off passengers, minimizing travel time and fuel consumption. By calculating the shortest paths, drivers can avoid traffic congestion and reduce overall journey times. Additionally, Dijkstra's algorithm supports real-time navigation, providing dynamic route updates to adapt to changing traffic conditions. This enhances the overall user experience by ensuring timely arrivals and departures. Implementing Dijkstra's algorithm thus plays a crucial role in improving operational efficiency and customer satisfaction in ride-sharing applications.
 [Click here to view the implementation](djikstrals.cpp)  
 
 Time Complexity: O( E log(V) ), Where E = Number of edges and V = Number of Nodes.
 Space Complexity: O( |E| + |V| ), Where E = Number of edges and V = Number of Nodes.
-![l2](Screenshot-2022-11-23-162707.png)
+![l2](Screenshot-2022-11-23-162707.png) 
+
 ### A Search Algorithm*
 A* Search Algorithm, an advanced version of Dijkstra's, offers faster route finding by incorporating heuristics to estimate the remaining cost to the destination. This makes it more efficient for real-time navigation in ride-sharing services like Ola or Uber, where quick and accurate route adjustments are crucial. By considering both the shortest path and real-time traffic conditions, A* Search Algorithm ensures drivers can navigate around obstacles and congestion more effectively. This leads to reduced travel times, improved fuel efficiency, and enhanced overall user satisfaction compared to using Dijkstra's algorithm alone.
 [Click here to view the implementation](A*search.cpp)  
@@ -69,7 +71,8 @@ A* Search Algorithm, an advanced version of Dijkstra's, offers faster route find
 Time Complexity: Considering a graph, it may take us to travel all the edge to reach the destination cell from the source cell [For example, consider a graph where source and destination nodes are connected by a series of edges, like – 0(source) –>1 –> 2 –> 3 (target). So the worse case time complexity is O(E), where E is the number of edges in the graph
 Auxiliary Space: In the worse case we can have all the edges inside the open list, so required auxiliary space in worst case is O(V), where V is the total number of vertices.  
 
-![l2](Screenshot-2022-11-23-162707.png)
+![l2](Screenshot-2022-11-23-162707.png) 
+
 #### Difference between Djikstra's and A* Search
 <html lang="en">
 <head>
