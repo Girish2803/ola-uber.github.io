@@ -165,8 +165,8 @@ Time Complexities:
         </tr>
     </table>
 </body>
-</html>
-
+</html> 
+![l1](binaryheap.gif)
 ### Knapsack Problem
 Knapsack Problem: For optimizing resource allocation, like deciding the best set of drivers to deploy based on constraints.
 [Click here to view implementation](Knapsack.cpp)
