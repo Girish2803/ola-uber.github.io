@@ -177,12 +177,14 @@ Reason: We are using an external array of size ‘N*W’. Stack Space is elimina
 
 ### Segment Trees
 For efficiently handling range queries and updates, useful in managing dynamic ride pricing or availability queries.
-[Click here to view implementation](SegmentTrees.cpp)
+[Click here to view implementation](SegmentTrees.cpp) 
+
 Time Complexities:
 a) Tree Construction: O( n )
 b) Query in Range: O( Log n )
-c) Updating an element: O( Log n ).
+c) Updating an element: O( Log n ). 
 Auxiliary Space: O(2*N)
+![l2](segmenttree.png)
 
 ### Conclusion
 This portfolio demonstrates a robust understanding of data structures and algorithms through practical applications in a ride-sharing context. By tackling real-world problems such as rider-driver matching, route optimization, dynamic pricing, and vehicle tracking, the project highlights the ability to design and implement efficient, scalable, and secure solutions. Each algorithm and data structure has been carefully selected and applied to address specific challenges inherent in ride-sharing applications, reflecting a strong grasp of both theoretical concepts and their practical implications. 
