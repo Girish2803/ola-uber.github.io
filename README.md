@@ -48,7 +48,8 @@ An advanced version of Dijkstra's for faster route finding using heuristics.
 [Click here to view the implementation](A*search.cpp)  
 
 Time Complexity: Considering a graph, it may take us to travel all the edge to reach the destination cell from the source cell [For example, consider a graph where source and destination nodes are connected by a series of edges, like – 0(source) –>1 –> 2 –> 3 (target). So the worse case time complexity is O(E), where E is the number of edges in the graph
-Auxiliary Space: In the worse case we can have all the edges inside the open list, so required auxiliary space in worst case is O(V), where V is the total number of vertices.
+Auxiliary Space: In the worse case we can have all the edges inside the open list, so required auxiliary space in worst case is O(V), where V is the total number of vertices.  
+
 ![l2](Screenshot-2022-11-23-162707.png)
 #### Difference between Djikstra's and A* Search
 <html lang="en">
