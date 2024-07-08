@@ -8,12 +8,12 @@
 **University:** KLE Technological University
 
 ## List of Contents
-1. [Introduction](##Introduction)
-2. [Objectives](##Objectives)
-3. [Business Applications](##Business Application)
-4. [Codes](##Codes)
-5. [Conclusion](##Conclusion)
-
+1. [Introduction](# Introduction)
+2. [Objectives](# Objectives)
+3. [Business Applications](# Business Application)
+4. [Codes](# Codes)
+5. [Conclusion](# Conclusion)
+6. [References](# References )
 ## Introduction
 Developing a portfolio project centered on a ride-sharing application like Ola or Uber showcases our skills in data structures and algorithms (DSA). These applications require efficient algorithms for tasks such as matching riders with drivers, optimizing routes, managing dynamic pricing, and tracking real-time locations. By implementing key DSA techniques, including graph algorithms, priority queues, and spatial indexing, you can demonstrate your ability to tackle complex, real-world problems with efficient and scalable solutions. 
 
@@ -209,3 +209,12 @@ Auxiliary Space: O(2*N)
 
 ### Conclusion
 This portfolio demonstrates a robust understanding of data structures and algorithms through practical applications in a ride-sharing context. By tackling real-world problems such as rider-driver matching, route optimization, dynamic pricing, and vehicle tracking, the project highlights the ability to design and implement efficient, scalable, and secure solutions. Each algorithm and data structure has been carefully selected and applied to address specific challenges inherent in ride-sharing applications, reflecting a strong grasp of both theoretical concepts and their practical implications. 
+
+### References
+1. TakeUforward ‘Topo Sort Implementation’ 
+2. GeeksforGeeks ‘A* Search Algorithm’
+3. TakeUforward ‘Djikstras Algorithm’
+4. TakeUforward ‘Binary Heap’
+5. Fu Mengyin, Li Ji and Deng Zhihong, "A Hierarchical Route Planning Algorithm with Restricted Search Area", Journal of Computer-Aided Design & Computer Graphics, vol. 17, no. 8, pp. 1773-1777, 2005.
+6. GeeksforGeeks ‘Segment Trees Implementation’.
+7.  Bellman, R., “Some Applications of the Theory of Dynamic Programming—A Review,” Operations Research 2, 275–288 (1954).
