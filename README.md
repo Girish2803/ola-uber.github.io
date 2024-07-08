@@ -8,11 +8,11 @@
 **University:** KLE Technological University
 
 ## List of Contents
-1. [Introduction](#Introduction)
-2. [Objectives](#Objectives)
-3. [Business Applications](#Business Application)
-4. [Codes](#Codes)
-5. [Conclusion](#Conclusion)
+1. [Introduction](##Introduction)
+2. [Objectives](##Objectives)
+3. [Business Applications](##Business Application)
+4. [Codes](##Codes)
+5. [Conclusion](##Conclusion)
 
 ## Introduction
 Developing a portfolio project centered on a ride-sharing application like Ola or Uber showcases our skills in data structures and algorithms (DSA). These applications require efficient algorithms for tasks such as matching riders with drivers, optimizing routes, managing dynamic pricing, and tracking real-time locations. By implementing key DSA techniques, including graph algorithms, priority queues, and spatial indexing, you can demonstrate your ability to tackle complex, real-world problems with efficient and scalable solutions. 
