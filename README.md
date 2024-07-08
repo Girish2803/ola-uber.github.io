@@ -34,6 +34,7 @@ Space Complexity: O(N) + O(N)
 Visited Array and Stack data structure. Both will be using O(N).
 Auxiliary Space Complexity:  O(N)
 ![ll](PLACEHOLDER_image4.jpg)
+![l1](PLACEHOLDER_image5.jpg)
 ### Dijkstra's Algorithm
 This can be used to find the shortest path between two points, which is essential for route optimization.
 [Click here to view the implementation](djikstrals.cpp)
