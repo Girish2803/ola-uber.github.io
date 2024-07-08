@@ -1,7 +1,8 @@
 ## Course Information
 **Course Name:** Algorithmic Problem Solving  
 **Course Code:** 23ECSE309  
-**Student Name:** Girish Tammanagoudar 
+**Student Name:** Girish Tammanagoudar
+
 **SRN:** 01fe21bcs256  
 **Course Instructor:** Prakash Hegade  
 **University:** KLE Technological University
